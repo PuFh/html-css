@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexíveis</title>
+    <link rel="shortcut icon" href="../Desafio02/favicon.ico" type="image/x-icon">
+    <style>
+        div{
+         width: 1200px;
+        margin: auto;
+        padding: 0px;
+        }
+        picture{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F92F;</p>
+    <div>
+        <picture>
+            <source media="(max-width: 770px)" srcset="paisagem-p.png" type="image/png">
+            <source media="(max-width: 1235px)" srcset="paisagem-m.png" type="image/png">
+            <img src="paisagem-g.png" alt="">
+        </picture>
+    </div>
+</body>
+</html>

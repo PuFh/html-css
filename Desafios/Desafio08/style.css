@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+:var {
+    --cinza: #D3D3D3;
+    --verdeFundo: #A6EB9A;
+    --verdeTexto: #2A6218;
+    --amareloFundo: #FFFFE3;
+    --amareloTexto: #C3884B;
+}

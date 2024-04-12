@@ -1,0 +1,55 @@
+@charset "UTF-8";
+        @font-face {
+            font-family:'magnet';
+            src:url('BlackMagnet.ttf') format('opentype');
+        }
+        @font-face {
+            font-family:'dungeon';
+            src: url(DUNGRG.TTF) format('opentype');
+        }
+        main{
+            text-align: center;
+            background-color: black;
+            width: 700px;
+            margin: auto;
+            border-radius: 5px;
+            box-shadow: 5px 5px 15px #30010173;
+        }
+        body{
+            background-image: linear-gradient(to bottom, #A60F0F, #400101);
+            background-attachment: fixed;
+        }
+        h1{
+            font-family: magnet;
+            font-size: 10em;
+            font-weight: lighter;
+            font-style: normal;
+            color: #3f0202;
+            text-shadow:1px 1px 3px #400101;
+        }
+        h3{
+            text-align: right; 
+            padding: 1em;
+            color: #BFA5A3;
+        }
+        p{
+            text-align: justify;
+            padding: 1.4em;
+            font-size: 1.1em;
+            color: #730710;
+        }
+        table{
+            width: 700px;
+            height: 700px;
+            color: #3f0202;
+            font-family: dungeon;
+            font-size: 1.2em;
+            font-weight: bolder;
+        }
+        th{
+            font-size: 1.7em;
+        }
+        ul{
+            text-align: left;
+            color: white;
+        }

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*
+    Em HMTL é id = em CSS é 
+    Em HTML é class = em CSS é .
+    *A diferença entre id e class é que o id é único, o class voce pode colocar em varias tags, diferente do id, que sera usado em apenas uma. Porém, se você fizer isso, irá funcionar mas é incorreto pelas regras da     w3c.
+*/
+
+body{
+    background-color: #b89b78;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #1e2529;  
+}
+h1#principal{
+    text-align: center;
+    color:#78726C;
+}
+h2{
+    color: #515D63;
+}
+
+.basico{
+    color: #839eac;
+
+}
+.intermediario{
+    color: #55666e;
+
+}
+.avancado{
+    color: #30393d;
+}
+.destaque{
+    background-color:rgb(107, 45, 8);
+}
