@@ -6,10 +6,11 @@
     <title>Fundo fixo de tela</title>
     <style>
         body{
-            height: 100vh;/*Para ocupar toda a tela de forma vertical*/
+            height: 100vh;/*Para ocupar toda a tela de forma vertical
+            */
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-repeat: repeat;
+            background-repeat: no-repeat;
             background-position: center;
             /*o backgound-siz tem 3 principais métodos:
                 1- Auto
@@ -18,13 +19,19 @@
 
               Temos métodos com % de width e height e também com pixel, mas eles são bastante ineficientes.
             
-            */            
-            background-size: cover;
+            */
+            background-size: cover;  
+            background-attachment: fixed;          
+            /* -----Shorthand de background
+        ordem---> cor> imagem> posição> repeat> [siz] > attachment.
+            background: black url("imagens/wallpaper002.jpg") center no-repeat fixed;
+            background-size: cover ;
+            */
         }
         main{
             background-color: white;
 
-            width: 600px;
+            max-width: 600px;
             border-radius: 5px;
             margin: auto;
             padding: 10px;
