@@ -30,7 +30,7 @@ header >div.centro{
 }
 header h1{
     font-family:var(--fonte1);
-    font-size: 3em;
+    font-size: 5vw;
 }
 header a{
     text-decoration: none;
@@ -51,7 +51,7 @@ main p{
     font-family: var(--fonte2);
     font-weight: normal;
     line-height: 2em;
-    font-size: 150%;
+    font-size: 3vw;
     padding-left: 25px;  
     
     
