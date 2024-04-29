@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 458px;
+        }
+        table > colgroup > col.c1{
+            background-color: gray;
+        }
+        .c3{
+            background-color: aqua;
+        }
+        .c4{
+            background-color: aquamarine;
+        }
+        table > caption{
+            font-size: 2em;
+        }
+        td, th{
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
      <h1>Exercício Tabela</h1>
     <table>
+        <colgroup>
+            <col class="c1">
+            <col class="c2">
+            <col class="c3"span="">
+            <col class="c4">
+        </colgroup>
         <caption>Cadastro</caption>
         <thead>
             <tr>
