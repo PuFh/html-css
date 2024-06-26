@@ -8,7 +8,6 @@ Estou aprendendo essas 2 linguagens e esse é o meu primeiro repositório :3.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Div com rolagem</title>
 
 </head>
 <body>
