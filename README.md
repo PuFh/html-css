@@ -8,7 +8,11 @@ Estou aprendendo essas 2 linguagens e esse é o meu primeiro repositório :3.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <style>
+        body{
+            background-color: rgb(54, 54, 54);
+        }
+    </style>
 </head>
 <body>
     <h1>Tomi</h1>
