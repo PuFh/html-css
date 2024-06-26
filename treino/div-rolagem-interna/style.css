@@ -20,9 +20,7 @@ header{
     text-align: center;
     font-size: 1.6em;
 }
-main{
 
-}
 section{
     width: 200px;
     height: 300px;
@@ -49,7 +47,4 @@ div.listagens{
 div{
     margin: auto;
     text-align: center;
-}
-footer{
-
 }
