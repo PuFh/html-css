@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Sixtyfour";
+    font-weight: lighter;
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+}
+header{
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    font-size: 1.6em;
+}
+main{
+
+}
+footer{
+
+}
