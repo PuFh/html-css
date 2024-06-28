@@ -46,6 +46,9 @@ section{
 div.lista{
     background-color: brown;
     
+    height: 370px;
+    overflow-y: auto;
+    scrollbar-width: none;
 }
 .lista > ul{
     margin: 20px;
