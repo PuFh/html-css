@@ -43,6 +43,13 @@ section{
     display: inline-block;
     background-color: antiquewhite;
 }
+li > a{
+    text-decoration: none;
+    color: black;
+    font-family: 'arcade-in';
+    font-weight: lighter;
+    font-size: 1.8em;
+}
 div.lista{
     background-color: brown;
     
