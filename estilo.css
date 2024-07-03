@@ -1,16 +1,15 @@
 @charset "UTF-8";
 
-
-@font-face {
+   @font-face {
+    font-family: 'arcade-out';
+    src: url(_/8-bit\ Arcade\ Out.ttf);
+}
+  @font-face {
     font-family: 'arcade-in';
     src: url(_/8-bit\ Arcade\ In.ttf);
   }
-
   @font-face {
-    font-family: 'arcade-out';
-    src: url(_/8-bit\ Arcade\ Out.ttf);
-
-    font-family: 'pixel';
+    font-family: 'pixeled';
     src: url(_/Pixeled.ttf);
   }
 
@@ -18,20 +17,20 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    background-color: #141414;
-}
 header{
     background-color: #141414;
     height: 200px;
 }
 header h1{
-    font-family: 'pixel';
-    font-size: 4em;
+    font-family: 'arcade-out';
+    font-size: 8em;
     color: rgb(54, 23, 128);
     position: absolute;
     top: 8%;
     left: 10%;
+}
+body{
+    background-color: #141414;
 }
 div#div-mestre{
     margin: auto;
@@ -66,11 +65,13 @@ h2{
 }
 li {
     
-    font-family: 'arcade-in';
+    font-family: 'pixeled';
     font-weight: lighter;
-    font-size: 1.9em;
-    line-height: 1em;
+    font-size: 1em;
+    line-height: 2em;
     color: #74787c;
+    margin-left: 10px;
+    list-style-type: none;
 }
 li > a{
     text-decoration: none;
@@ -78,9 +79,10 @@ li > a{
 }
 .lista-interna{
     
-    font-size: 0.48em;
-    left: 5%;
+    font-size: 0.8em;
+    left: 4%;
     position: relative;
+    list-style: circle;
 }
 div.lista{
     
