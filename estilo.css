@@ -100,7 +100,7 @@ li > a{
 }
 li > a:hover{
     color: #371780b7;
-    transition-delay: 0.1s;
+    transition-delay: 0s;
 }
 .lista-interna{
     
