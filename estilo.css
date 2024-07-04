@@ -41,7 +41,8 @@ section{
     height: 400px;
     padding: 5px;
     margin: 30px;
-
+    overflow-y: auto;
+    scrollbar-width: none;
     display: inline-block;
     
     background-color: #111111;
