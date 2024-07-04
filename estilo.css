@@ -1,12 +1,19 @@
 @charset "UTF-8";
 
    @font-face {
-    font-family: 'arcade-out';
-    src: url(_/8-bit\ Arcade\ Out.ttf);
+    font-family: 'arcade-i';
+    src: url(_/arcade_ya/ARCADE_I.TTF)
+    format('truetype');
 }
   @font-face {
-    font-family: 'arcade-in';
-    src: url(_/8-bit\ Arcade\ In.ttf);
+    font-family: 'arcade-n';
+    src: url(_/arcade_ya/ARCADE_N.TTF)
+     format('truetype');
+  }
+  @font-face {
+    font-family: 'arcade-r';
+    src: url(_/arcade_ya/ARCADE_R.TTF)
+    format('truetype');
   }
   @font-face {
     font-family: 'pixeled';
@@ -22,9 +29,10 @@ header{
     height: 200px;
 }
 header h1{
-    font-family: 'arcade-out';
-    font-size: 8em;
-    color: rgb(54, 23, 128);
+    font-family: 'arcade-n';
+    font-size: 4em;
+    font-weight: normal;
+    color: #361780;
     position: absolute;
     top: 8%;
     left: 10%;
@@ -41,8 +49,7 @@ section{
     height: 400px;
     padding: 5px;
     margin: 30px;
-    overflow-y: auto;
-    scrollbar-width: none;
+
     display: inline-block;
     
     background-color: #111111;
@@ -58,7 +65,7 @@ div.lateral{
     
 }
 div#desafios{
-    background-color: rgba(99, 21, 25, 0.719);
+    background-color: #631519b7;
 }
 div#exercicios{
     background-color: rgba(12, 65, 126, 0.74);
@@ -67,14 +74,18 @@ div#treino{
     background-color: rgba(163, 180, 8, 0.705);
 }
 h2{
-    font-family: 'arcade-in';
-    font-size: 3em;
+    font-family: 'arcade-i';
+    font-size: 1.6em;
+    font-weight: lighter;
+
+    margin-top: 10px;
     color: rgb(156, 156, 156);
     display: inline-block;
+    position: sticky;
 }
 li {
     
-    font-family: 'pixeled';
+    font-family: 'arcade-r';
     font-weight: lighter;
     font-size: 1em;
     line-height: 2em;
@@ -85,6 +96,11 @@ li {
 li > a{
     text-decoration: none;
     color: #74787c;
+    transition: 0.4s;
+}
+li > a:hover{
+    color: #371780b7;
+    transition-delay: 0.1s;
 }
 .lista-interna{
     
@@ -94,8 +110,7 @@ li > a{
     list-style: circle;
 }
 div.lista{
-    
-    height: 37s0px;
+    height: 360px;
     overflow-y: auto;
     scrollbar-width: none;
 }
