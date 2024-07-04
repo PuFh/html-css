@@ -55,8 +55,16 @@ div.lateral{
     background-color: white;
     margin-right: 10px;
     display: inline-block;
-    border-radius: 5px;
-    box-shadow: inset 7px -5px 6px 6px rgba(255, 0, 0, 0.651)
+    
+}
+div#desafios{
+    background-color: rgba(99, 21, 25, 0.719);
+}
+div#exercicios{
+    background-color: rgba(12, 65, 126, 0.74);
+}
+div#treino{
+    background-color: rgba(163, 180, 8, 0.705);
 }
 h2{
     font-family: 'arcade-in';
