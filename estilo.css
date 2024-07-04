@@ -19,6 +19,7 @@
     font-family: 'pixeled';
     src: url(_/Pixeled.ttf);
   }
+  @import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
 
 *{
     margin: 0px;
@@ -29,9 +30,9 @@ header{
     height: 200px;
 }
 header h1{
-    font-family: 'arcade-n';
+    font-family: "arcade-n";
     font-size: 4em;
-    font-weight: normal;
+    font-weight: lighter;
     color: #361780;
 
     display: block;
