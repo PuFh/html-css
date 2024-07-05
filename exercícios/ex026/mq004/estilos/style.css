@@ -13,18 +13,35 @@
 body, html{
     width: 100vw;
     height: 100vh;
+    scrollbar-width: none;
 
 }
 
 body{
-    background: black url(../img/back-phone.jpg) center top ;
+    background: black url(../img/back-phone.jpg) center top no-repeat;
+    background-size: cover;
 }
 main{
     background-color: #ffffff63;
-    width: 600px;
+    width: 90vw;
     margin: 10px auto;
+    margin-top: 20px;
     padding: 10px;
     
     border-radius: 10px;
 
 }
+h1{
+    color: antiquewhite;
+    text-align: center;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.562);
+}
+img{
+    display: block;
+    margin: 5px auto;
+}
+img#phone{ display: block;}
+img#tablet{ display: none;}
+img#print{ display: none;}
+img#pc{ display: none;}
+img#tv{ display: none;}
