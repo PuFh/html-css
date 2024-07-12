@@ -44,6 +44,7 @@ menu > ul > li > a{
     background-color: #2e2c2c;
     color: #bebebe;
     border-top: 2px solid gray;
+    padding: 5px;
 }
 menu > ul > li > a:hover{
     background-color: gray;
